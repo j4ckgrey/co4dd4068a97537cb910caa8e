@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+.card {
+    background: #D2D1D1;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 2px grey;
+    border-radius: 5px;
+}
+
+#home-btn {
+    background: grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#guest-btn {
+    background: grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#new-btn {
+    background: green;
+    padding: 0;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#count-guest {
+    padding: 10px;
+    background: grey;
+    border: 2px grey;
+    border-radius: 5px;
+}
+
+#count-home {
+    padding: 10px;
+    background: grey;
+    border: 2px grey;
+    border-radius: 5px;
+}
